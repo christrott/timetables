@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  direction: column;
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vh;
+  display: inline-block;
+}
+
+.App-header {
+  flex-basis: 100%;
+  background-color: #222;
+  height: 10vh;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  display: inline-block;
+  height: 10vh;
+  font-size: 1.5em;
+  padding-left: 10px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

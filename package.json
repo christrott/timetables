@@ -1,0 +1,29 @@
+{
+  "name": "timetables",
+  "version": "1.0.0",
+  "description": "This app provides a list of courses and the students enrolled in each course",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -d",
+    "start": "npm run build && node ./build/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Trott",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "express": "^4.14.1",
+    "lodash": "^4.17.10",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}

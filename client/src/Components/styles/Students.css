@@ -1,0 +1,9 @@
+#students-list {
+  margin: 0;
+  overflow-y: scroll;
+  width: 50%;
+}
+
+#students-list li {
+  list-style-type: none;
+}
